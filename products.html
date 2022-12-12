@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .top {box-sizing: border-box;}
+      .card{box-shadow: none;}
+      .card img {object-fit: contain;}
+     .btn { padding: 5px;}
+     #bottomnav{
+      background-color: red;
+      width: 100%;
+      box-sizing: border-box;
+     }
+     #bottomnav ul{
+      white-space: nowrap;
+      box-sizing: border-box;
+      margin: auto;
+     }
+     #bottomnav li{
+      padding: 15px;
+      display: inline;
+      font-size: 28px;
+
+     }
+     #bottomnav a{
+      text-decoration: none;
+      color: white;
+     }
+     #bottomnav a:hover{
+        color: blue;
+     }
+     h2{
+      padding: 40px;
+     }
+     @media screen and (max-width: 664px) {
+      #bottomnav ul{
+        margin: auto;
+        box-sizing: border-box;
+      }
+      #bottomnav li{
+        padding: 5px;
+        white-space:pre-wrap;
+       font-size: 20px;
+      }
+      
+     }
+    </style>
+</head>
+<body>
+  <div id="page">
+    <nav class="navbar fixed-top navbar-expand-sm ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="turner.html">Turner Tech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="turner.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="deals.html">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="repairs.html">Repairs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#" target="_blank">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">WhatsApp</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <article>
+      <h1>Our Products</h1>
+      <div id="top">
+          <img src="/images/products3.jpeg" alt="" width="100%" height="450px" class="topimg">
+          <nav id="bottomnav" class="navbar sticky-top">
+            <ul>
+              <li><a href="#laptops">Laptops</a></li>
+              <li><a href="#motherboards">Mother Boards</a></li>
+              <li><a href="#harddrives">Hard Drives</a></li>
+              <li><a href="#chargers">Chargers</a></li>
+            </ul>
+          </nav>
+          </div>
+      <div id="laptops">
+        <h2>Laptops</h2>
+        <div class="row">
+            <div class="col-lg-3">
+            <div class="card" style="width: 100%;">
+                <h4>Apple Macbook Pro</h4>
+                <span>&#8358 750,000</span>
+                <img src="/images/apple-macbook.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>13.3-inch Retina display with an active cooling system, 4 USB, up to 16GB RAM, 
+                  and 2TB SSD. Advanced camera ISP and 220 hours of battery life.</p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Lenovo Legion Y540</h4>
+                <span>&#8358 485,000</span>
+                <img src="/images/LenovoLegionY540.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Up to 32 GB DDR4 2666 MHz, 1TB PCIe SSD and 2 TB HDD.5.6″ FHD IPS, antiglare (1920 x 1080, 300 nits, 144 Hz or 60 Hz), 17.3″ FHD IPS
+                </p>
+                <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>HP Probook 455 G7</h4>
+                <span>&#8358 243,512</span>
+                <img src="/images/HP-probook.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>Run on AMD Ryzen 4000 series processors coupled with AMD Radeon Graphics card.
+                Large display, lightweight, quad-speakers.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>ASUS X543</h4>
+                <span>&#8358 163,000</span>
+                <img src="/images/AsusX543MA.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Intel® Core™ i3 processor coupled with an Integrated Intel UHD Graphics card and storage up to 1TB HDD with an optional 256GB SSD.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <div id="motherboards">
+        <h2>Motherboards</h2>
+        <div class="row">
+            <div class="col-lg-3">
+            <div class="card" style="width: 100%;">
+                <h4>Gigabyte Z690 Aorus Ultra</h4>
+                <span>&#8358 32,000</span>
+                <img src="/images/aorus.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Four slots for M.2 drives. Plenty of rear USB ports. Robust power delivery and VRMs. PCIe Gen 5 support
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>MSI MEG Z690I Unify</h4>
+                <span>&#8358 180,000</span>
+                <img src="/images/mega.png" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Reliable 105A MOSFETs. Triple M.2 slots. Thunderbolt 4 support. PCIe 5.0 x16 slot
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>MSI MAG B660 Tomahawk Wi-Fis</h4>
+                <span>&#8358 86,500</span>
+                <img src="/images/msi.png" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Excellent performance. Temperatures are well under check. I/O port
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Asus Prime H610M-A</h4>
+                <span>&#8358 50,500</span>
+                <img src="/images/asusmb.png" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Affordable price. Intel 1Gb Ethernet. Provision for V-M.2 Wi-Fi module. Multiple M.2 slots
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <div id="chargers">
+        <h2>Chargers</h2>
+        <div class="row">
+            <div class="col-lg-3">
+            <div class="card" style="width: 100%;">
+                <h4>Hp Chargers</h4>
+                <img src="/images/hpc.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Get high quality chargers for your HP laptops.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Macbook Chargers</h4>
+                <img src="/images/macc.webp" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  We have various chargers available for macbooks.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Lenovo Chargers</h4>
+                <img src="/images/lenovoc.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  Get awesome high quality chargers for Lenovo laptops.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Asus Chargers</h4>
+                <img src="/images/asusc.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body"><p>
+                  High quality Asus chargers are available.
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <div id="harddrives">
+        <h2>Hard Drives</h2>
+        <div class="row">
+            <div class="col-lg-3">
+            <div class="card" style="width: 100%;">
+                <h4>Seagate BarraCuda</h4>
+                <span>&#8358 30,000</span>
+                <img src="/images/sea.webp" class="card-img-top" alt="...">
+                <div class="card-body"><p>
+                  Storage Size-500GB - 8TB<br>
+                  Screen Size-3.5-inch
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>WD VelociRaptor</h4>
+                <span>&#8358 100,400</span>
+                <img src="/images/velociraptor.webp" class="card-img-top" alt="...">
+                <div class="card-body"><p>
+                  Screen Size-3.5-inch
+                   Storage Type-HDD
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4> G-Technology G-Drive</h4>
+                <span>&#8358 65,000</span>
+                <img src="/images/g-tech.webp" class="card-img-top" alt="..." >
+                <div class="card-body"><p>
+                  Fantastic performance + USB Type-C V2 
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3">
+              <div class="card" style="width: 100%;">
+                <h4>Seagate IronWolf NAS</h4>
+                <span>&#8358 220,000</span>
+                <img src="/images/ironwolf.webp" class="card-img-top" alt="...">
+                <div class="card-body"><p>
+                  Storage Size-4GB - 8TB<br>
+                  Screen Size-3.5-inch
+                </p>
+                  <a href="#" class="btn btn-primary">Purchase</a>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      </article>
+      <footer>
+        <ul>
+            <li>Turner tech &copy;2022</li>
+            <li><a href="turner.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="repairs.html">Repairs</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li>
+              <div class="icons">
+                <a href="#" target="_blank"><img src="/images/facebook.jpg" alt="facebook" width="30" height="30"></a>
+                <a href="http://" target="_blank"><img src="/images/whatsapp.jpg" alt="whatsapp" width="30" height="30"></a>
+                <a href="http://" target="_blank"><img src="/images/instagram.jpg" alt="instagram" width="30" height="30"></a>
+                </div>
+            </li>
+        </ul>
+      </footer>
+   </div>
+</body>
+</html>
